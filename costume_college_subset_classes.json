@@ -52,7 +52,7 @@
     "Kit Fee": "$15",
     "Kit Contents": "3 skeins of silk embroidery floss and one binder clip",
     "Student Provides": "Scissors"
-  }
+  },
   {
     "Title": "Draping a Basics Bodice on a Corseted Figure",
     "Description": "Using professional modern fashion industry techniques, Lana Lily will walk students through the process of draping a single dart Basic Bodice on a fellow corseted student model. The techniques used here can be transferred to most time periods and this basic bodice shape can be used to pattern any bodice for this corseted shape. Please note students should be comfortable with another student using them as a live model for this process which can take up to 2 hours of standing.",
@@ -218,7 +218,7 @@
     "Kit Fee": null,
     "Kit Contents": null,
     "Student Provides": null
-}
+},
 {
     "Title": "Basic Leatherworking: Creating a Bracer",
     "Description": "In this workshop, students will create a single leather bracer custom fit to them by first creating a paper pattern to their measurements, tooling a simple stamped design, dying the leather, setting grommets, and finishing.",
@@ -273,7 +273,7 @@
     "Kit Fee": null,
     "Kit Contents": null,
     "Student Provides": null
-  }
+  },
   {
     "Title": "Unusual Materials and Effects",
     "Description": "How to use items not usually considered in costuming with spectacular results, including cellophane wrap, angellina fiber, hot glue, and foam for fabrics, faux raised work, and digigrade body shaping.",
@@ -1297,6 +1297,7 @@
     "Kit Contents": null,
     "Student Provides": null
   },
+  {
   "Title": "Creating a 1920s Haslam System Dress Pattern",
     "Description": "This class will demonstrate how to use the Haslam System to draft a stylish 1920s dress pattern. We’ll explore how to interpret original diagrams, adapt them for modern sizes, and walk through key construction points.",
     "Teacher": "Mela Hoyt-Heydon",
@@ -1340,6 +1341,7 @@
     "Kit Contents": null,
     "Student Provides": "Serger, manual, fabric scraps, thread, scissors"
   },
+  {
   "Title": "Make Your Own Pleater Board",
     "Description": "Create your own pleater board, a tool for making even pleats by folding paper or fabric over a guide. This workshop teaches you how to measure, mark, fold, and glue your own customized pleating tool.",
     "Teacher": "Krystyn Tsagarakis",
@@ -1592,7 +1594,280 @@
     "Kit Contents": null,
     "Student Provides": null
   },
-  
-
+  {
+    "Title": "Machine Embroidery with Inkstitch",
+    "Description": "Join Jen as we dive into the wonderful world of Machine Embroidery with Inkstitch. Inkstitch is a free program you can use to digitize your own embroidery designs. During this lecture, we will walk through the basics of how to create a vector file and transform it into stitches for your embroidery machine.",
+    "Teacher": "Jen Rosser",
+    "Time": "Sunday, 12:00 PM - 1:15 PM",
+    "Location": "Catalina Room, 3rd Floor",
+    "Type": "Lecture",
+    "Kit Fee": "$1",
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Laura Ashley & English Country Cottage Design",
+    "Description": "A designer deepdive on Laura Ashley — her life, historical inspirations, and how she adapted Victorian and Edwardian elements for modern fashion from the 60s–80s. The session includes her ties to Princess Diana and work at the Women’s Institute.",
+    "Teacher": "Blair Van Tassel",
+    "Time": "Sunday, 12:00 PM - 12:45 PM",
+    "Location": "Clemente Room, 3rd Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Knitting Techniques for the Sewist",
+    "Description": "This class will help experienced sewists understand garment shaping in knitting. Learn to relate sewing fit knowledge to vertical darts, short rows, waist and shoulder shaping, and more.",
+    "Teacher": "Laura Raynes",
+    "Time": "Sunday, 12:00 PM - 12:45 PM",
+    "Location": "Ballroom E, 1st Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Learn to Dress Yourself in a Japanese Yukata!",
+    "Description": "Learn the basic dressing techniques for wearing a Yukata (casual cotton kimono). A rental outfit is included, and students can bring their own. We’ll cover dressing steps, accessories, and purchasing options.",
+    "Teacher": "Laura Wong",
+    "Time": "Sunday, 12:30 PM - 1:45 PM",
+    "Location": "Room 205, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$40",
+    "Kit Contents": "Yukata and accessories for use during class",
+    "Student Provides": "OPTIONAL: Bring your own yukata, hanhaba obi, koshihimo x2, or other kimono dressing materials"
+  },
+  {
+    "Title": "Hand Sewing Basics",
+    "Description": "Create a sampler of basic hand stitches and fastenings. Students will learn 4 essential hand stitches and 4 fastening techniques commonly used in historical and modern garment construction.",
+    "Teacher": "Lia Hansen",
+    "Time": "Sunday, 1:00 PM - 4:45 PM",
+    "Location": "Room 206, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$10",
+    "Kit Contents": "Sampler blank, instructions, fastenings, needle, and thread",
+    "Student Provides": "Thread snips, seam ripper, and pins"
+  },
+  {
+    "Title": "Paper Piecing Pouches",
+    "Description": "Create a small pouch using paper piecing, a precise patchwork technique. This hands-on workshop will guide you through layout, stitching, and assembly of a quilted pouch.",
+    "Teacher": "Jessica Bullock",
+    "Time": "Sunday, 1:00 PM - 2:45 PM",
+    "Location": "Room 214, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$10",
+    "Kit Contents": "Fabric scraps, paper templates, thread, and printed instructions",
+    "Student Provides": "Basic sewing kit, scissors, pins, and hand sewing needle"
+  },
+  {
+    "Title": "Serging Beyond the Basics",
+    "Description": "Take your serging skills to the next level. This class will explore rolled hems, differential feed, flatlocking, and decorative threads. Learn how to adjust tension and settings for different effects.",
+    "Teacher": "Heather Dill-Tullo",
+    "Time": "Sunday, 1:00 PM - 2:45 PM",
+    "Location": "Room 202, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$25",
+    "Kit Contents": "Handouts, practice fabrics, specialty threads",
+    "Student Provides": "Serger, instruction manual, basic tools, and coordinating threads"
+  },
+  {
+    "Title": "Get Up Close and Personal With 18th C Fashion Items",
+    "Description": "Examine real 18th-century fashion items in detail. Learn about stitching techniques, fabric choices, and finishing methods by observing and handling museum-quality pieces.",
+    "Teacher": "Cat Haltner",
+    "Time": "Sunday, 1:00 PM - 2:45 PM",
+    "Location": "Catalina Room, 3rd Floor",
+    "Type": "Lecture",
+    "Kit Fee": "$1",
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Waraji Straw Sandals",
+    "Description": "Make your own traditional Japanese waraji sandals using straw or modern fibers. Learn the history and cultural significance of this footwear style and how to weave and tie them.",
+    "Teacher": "Laura Wong",
+    "Time": "Sunday, 1:00 PM - 2:45 PM",
+    "Location": "Room 210, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$10",
+    "Kit Contents": "Straw/cord, needle, template, and handout",
+    "Student Provides": "Scissors, tape, and optional mat for working"
+  },
+  {
+    "Title": "Fascination",
+    "Description": "Make a fascinator-style hair ornament using basic millinery techniques. Choose from a variety of trims and base shapes to create your own unique design.",
+    "Teacher": "Crystal Taggart",
+    "Time": "Sunday, 1:00 PM - 2:45 PM",
+    "Location": "Room 206, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$15",
+    "Kit Contents": "Base, netting, embellishments, and hand-sewing supplies",
+    "Student Provides": "Scissors, needle, optional glue gun and custom trims"
+  },
+  {
+    "Title": "From Amazon Costume to Historical Clothing",
+    "Description": "Explore how a costume created for Amazon Prime’s *Wheel of Time* was adapted into a historically inspired ensemble. Includes breakdown of construction changes, fabric sourcing, and adapting fantasy into real-world wear.",
+    "Teacher": "Blair Van Tassel",
+    "Time": "Sunday, 3:00 PM - 3:45 PM",
+    "Location": "Ballroom E, 1st Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Goldwork Embroidery in the Regency Era",
+    "Description": "Discover the opulent art of goldwork embroidery, a technique used in Regency and earlier periods to embellish garments with metal threads. Class includes visual examples and technique demonstration.",
+    "Teacher": "Cat Haltner",
+    "Time": "Sunday, 3:00 PM - 3:45 PM",
+    "Location": "Catalina Room, 3rd Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Making a Hatbox",
+    "Description": "Make your own collapsible hat box to safely store or transport historical hats. This hands-on workshop includes materials for one mid-sized hat box and decorating tips.",
+    "Teacher": "Crystal Taggart",
+    "Time": "Sunday, 3:00 PM - 4:45 PM",
+    "Location": "Room 214, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$25",
+    "Kit Contents": "Box templates, cardboard, decorative paper, glue, ribbon",
+    "Student Provides": "Scissors, hot glue gun, optional decorative items"
+  },
+  {
+    "Title": "Heirloom Sewing for the Sewing Machine",
+    "Description": "Learn to use machine techniques to mimic traditional heirloom sewing. Includes pin tucks, lace insertion, and embellishments typically used in baby garments and historical lingerie.",
+    "Teacher": "Heather Dill-Tullo",
+    "Time": "Sunday, 3:00 PM - 4:45 PM",
+    "Location": "Room 202, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$8",
+    "Kit Contents": "Handouts, lace trim, fabric samples, needles",
+    "Student Provides": "Sewing machine, white thread, scissors"
+  },
+  {
+    "Title": "Costuming a Whole Show",
+    "Description": "Learn the process of costuming a full theatrical production from auditions to curtain call. Topics include budgeting, scheduling, pulling vs. building, cast coordination, and working with directors.",
+    "Teacher": "Mela Hoyt-Heydon",
+    "Time": "Sunday, 3:00 PM - 4:45 PM",
+    "Location": "Room 212, 2nd Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Intro to Natural Dyeing",
+    "Description": "Learn the basics of dyeing fabric and fiber with natural materials. This workshop will cover common dye plants, mordants, colorfastness, and safety. Students will prepare and dye swatches using beginner-friendly techniques.",
+    "Teacher": "Kaitlyn Sundie",
+    "Time": "Sunday, 3:00 PM - 4:45 PM",
+    "Location": "Room 205, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$15",
+    "Kit Contents": "Fabric swatches, sample mordants, dye materials, and handouts",
+    "Student Provides": "Gloves, apron, and notebook"
+  },
+  {
+    "Title": "Victorian Men Were Fashionable, Too",
+    "Description": "Victorian fashion wasn’t just for women — men were just as image-conscious. This lecture explores the fashion trends, tailoring, and grooming of 19th-century men across classes and cultures.",
+    "Teacher": "Scott Pennington",
+    "Time": "Sunday, 3:00 PM - 3:45 PM",
+    "Location": "Ballroom F, 1st Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Cloning Clothes: Patterning from an Extant Garment",
+    "Description": "Learn how to copy an existing garment without taking it apart. This workshop walks through measuring, marking, and drafting from finished pieces to create usable sewing patterns.",
+    "Teacher": "Laura Skarka",
+    "Time": "Sunday, 3:00 PM - 4:45 PM",
+    "Location": "Room 210, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$4",
+    "Kit Contents": "Dot paper, rulers, pins, and tracing materials",
+    "Student Provides": "Garment to clone, pencil, measuring tape, and optional French curve"
+  },
+  {
+    "Title": "Fantastic Feathers for Hat, Hair, or Clothing",
+    "Description": "Learn how to use feathers to create headpieces, hat trims, or clothing accents. Covers feather selection, shaping, coloring, and mounting methods with plenty of hands-on work.",
+    "Teacher": "Krystyn Tsagarakis",
+    "Time": "Sunday, 3:00 PM - 4:45 PM",
+    "Location": "Room 206, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$18",
+    "Kit Contents": "Assorted feathers, wire, glue, clips, embellishment samples",
+    "Student Provides": "Glue gun, scissors, and optional decorative materials"
+  },
+  {
+    "Title": "Intermediate Ribbon Millinery Flowers - Level 2",
+    "Description": "Take your ribbon flower skills to the next level with advanced petal shaping and floral arrangement. Great for hat embellishment or accessories.",
+    "Teacher": "DL Popplewell",
+    "Time": "Sunday, 3:00 PM - 4:45 PM",
+    "Location": "Room 212, 2nd Floor",
+    "Type": "Workshop",
+    "Kit Fee": "$13",
+    "Kit Contents": "Precut ribbon, flower centers, floral wire, and instructions",
+    "Student Provides": "Sewing kit, magnifier optional, scissors"
+  },
+  {
+    "Title": "As Seen on TV: Knitwear",
+    "Description": "A look at how TV shows depict knitwear — both the hits and misses — with attention to historical accuracy, fiber choice, construction, and how knitwear is integrated into costumes.",
+    "Teacher": "Rachel Koonse",
+    "Time": "Sunday, 4:00 PM - 4:45 PM",
+    "Location": "Ballroom F, 1st Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Digitizing Cutting Files with InkScape",
+    "Description": "Learn how to turn your design drawings or patterns into digital cut files using Inkscape. Great for use with Cricut or Silhouette cutters for appliqué, vinyl, or stenciling.",
+    "Teacher": "Jen Rosser",
+    "Time": "Sunday, 4:00 PM - 4:45 PM",
+    "Location": "Catalina Room, 3rd Floor",
+    "Type": "Lecture",
+    "Kit Fee": "$1",
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "How to Teach at Costume College",
+    "Description": "Curious about being an instructor at Costume College? This session demystifies the process — from application tips to structuring a strong class — and includes a Q&A.",
+    "Teacher": "Cat Haltner",
+    "Time": "Sunday, 4:00 PM - 4:45 PM",
+    "Location": "Clemente Room, 3rd Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Jeanne Lanvin and the Robe de Style",
+    "Description": "Explore the signature design of Jeanne Lanvin — the robe de style. Learn what sets it apart from the flapper dress, how it evolved, and how to recreate it authentically.",
+    "Teacher": "Blair Van Tassel",
+    "Time": "Sunday, 4:00 PM - 4:45 PM",
+    "Location": "Room 214, 2nd Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  },
+  {
+    "Title": "Warriors of the Steppe: Clothing of the Scythians",
+    "Description": "Discover the layered, practical, and surprisingly decorative garments of the ancient Scythians, a nomadic people of the Central Asian steppes. This lecture explores archaeology, textile findings, and how to reconstruct their look today.",
+    "Teacher": "Sarah Goodman",
+    "Time": "Sunday, 4:00 PM - 4:45 PM",
+    "Location": "Ballroom D, 1st Floor",
+    "Type": "Lecture",
+    "Kit Fee": null,
+    "Kit Contents": null,
+    "Student Provides": null
+  }
   
 ]
