@@ -1,0 +1,270 @@
+:root {
+    --primary-color: #6a0dad;
+    --secondary-color: #9370db;
+    --background-color: #f8f5ff;
+    --text-color: #333;
+    --border-color: #ddd;
+    --highlight-color: #ff6b6b;
+    --success-color: #4caf50;
+    --workshop-color: #d4e6ff;
+    --lecture-color: #ffead4;
+    --alert-color: #ffdddd;
+}
+
+/* High Contrast Mode */
+[data-high-contrast="true"] {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --border-color: #000000;
+    --highlight-color: #ff0000;
+    --workshop-color: #ffffff;
+    --lecture-color: #ffffff;
+}
+
+/* Large Text Mode */
+[data-large-text="true"] {
+    font-size: 120%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.settings {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.settings button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.panel {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+}
+
+.filters {
+    margin-bottom: 1.5rem;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.filter-options {
+    display: flex;
+    gap: 1rem;
+}
+
+.filter-options select {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.session-card {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.session-card.workshop {
+    border-left: 5px solid var(--secondary-color);
+    background-color: var(--workshop-color);
+}
+
+.session-card.lecture {
+    border-left: 5px solid var(--primary-color);
+    background-color: var(--lecture-color);
+}
+
+.session-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--primary-color);
+}
+
+.session-info {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.session-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.session-actions button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.schedule-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.schedule-tab {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+}
+
+.schedule-tab.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.timeline-container {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: 100px repeat(24, 100px);
+    gap: 1px;
+    background-color: var(--border-color);
+}
+
+.timeline-hour {
+    padding: 0.5rem;
+    background: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.schedule-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.schedule-actions button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-options {
+        flex-direction: column;
+    }
+    
+    .settings {
+        position: static;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+/* Accessibility Improvements */
+button:focus, input:focus, select:focus {
+    outline: 3px solid var(--highlight-color);
+    outline-offset: 2px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Print Styles */
+@media print {
+    .settings, .filters, .session-actions {
+        display: none;
+    }
+    
+    body {
+        background: white;
+    }
+    
+    .panel {
+        box-shadow: none;
+        border: 1px solid #000;
+    }
+} 

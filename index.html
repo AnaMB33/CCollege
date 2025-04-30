@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costume College Agenda Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Costume College Agenda Builder</h1>
+            <p>Plan your perfect schedule for the annual costuming arts conference</p>
+        </div>
+        <div class="settings">
+            <button id="highContrastToggle" aria-label="Toggle high contrast mode">
+                <span class="icon">🌓</span>
+            </button>
+            <button id="largeTextToggle" aria-label="Toggle large text mode">
+                <span class="icon">Aa</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="sessions-list panel">
+                <h2>Available Sessions</h2>
+                <div class="filters">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search sessions...">
+                    </div>
+                    <div class="filter-options">
+                        <select id="dayFilter">
+                            <option value="all">All Days</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                        </select>
+                        <select id="typeFilter">
+                            <option value="all">All Types</option>
+                            <option value="Workshop">Workshop</option>
+                            <option value="Lecture">Lecture</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="sessionsList" class="sessions-container"></div>
+            </section>
+
+            <section class="saved-sessions panel">
+                <h2>My Saved Sessions</h2>
+                <div class="schedule-tabs">
+                    <button class="schedule-tab active" data-schedule="schedule1">Primary</button>
+                    <button class="schedule-tab" data-schedule="schedule2">Alternate 1</button>
+                    <button class="schedule-tab" data-schedule="schedule3">Alternate 2</button>
+                </div>
+                <div id="savedSessionsList" class="saved-sessions-container"></div>
+                <div class="schedule-actions">
+                    <button id="exportSchedule">Export Schedule</button>
+                    <button id="printSchedule">Print Schedule</button>
+                </div>
+            </section>
+        </div>
+
+        <section class="schedule-builder panel">
+            <h2>Schedule Timeline</h2>
+            <div class="timeline-container">
+                <div id="timelineGrid" class="timeline-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with ❤️ for the costuming community</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html> 
